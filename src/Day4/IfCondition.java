@@ -15,8 +15,7 @@ public class IfCondition {
         int person_age2 = 17;
         if (person_age2>=18){
             System.out.println("Eligible for vote");
-        }
-        else {
+        } else {
             System.out.println("Note Eligible for vote");
         }
 
@@ -26,9 +25,21 @@ public class IfCondition {
         int number = scn.nextInt();
         if ((number%2) == 0){
             System.out.println("Even Number");
-        }
-        else{
+        } else{
             System.out.println("Odd Number");
         }
+
+        //Check the number is Positive/Negative/Zero
+        Scanner skan = new Scanner(System.in);
+        System.out.print("Enter a number to check wether it is Positive/Negative/Zero: ");
+        int num = skan.nextInt();
+        if (num>0){
+            System.out.println("Positive Number");
+        } else if (num<0) {
+            System.out.println("Negative Number");
+        }else{
+            System.out.println("Zero");
+        }
+
     }
 }
