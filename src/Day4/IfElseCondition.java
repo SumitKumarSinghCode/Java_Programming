@@ -1,7 +1,5 @@
 package Day4;
 
-import java.util.Scanner;
-
 public class IfCondition {
     public static void main(String[] args){
 
