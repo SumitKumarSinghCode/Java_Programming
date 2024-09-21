@@ -1,6 +1,6 @@
 package Day4;
 
-public class IfCondition {
+public class IfElseCondition {
     public static void main(String[] args){
 
         //if Conditional Statement
