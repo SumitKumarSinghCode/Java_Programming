@@ -41,5 +41,13 @@ public class WhileLoop {
             st++;
         }
 
+        //print the number form 10 to 1
+        int strt = 10; //Initialization
+        while(strt>=1) //Condition
+        {
+            System.out.println(strt);
+            strt--; //decrement
+        }
+
     }
 }
