@@ -23,5 +23,14 @@ public class Looping_IterativeStatements {
            inc/dec;
         }
         */
+
+        //Syntax of do while loop
+        /*
+        do
+        {
+        statements;
+        inc/dec;
+        }while(condition);
+         */
     }
 }
