@@ -20,10 +20,25 @@ public class WhileLoop {
 
         //Print Even numbers between 1-10
         int starting = 1;
-        while((starting<=10) && (i%2==0))
+        while (starting<=10)
         {
-            System.out.println(i);
-            i++;
+            if (starting%2==0) {
+                System.out.println(starting);
+            }
+            starting++;
+        }
+
+        //from 1-10 specify each number is even/odd
+        int st = 1;
+        while(st<=10)
+        {
+            if(st%2==0)
+            {
+                System.out.println(st+" Even");
+            }else{
+                System.out.println(st+" odd");
+            }
+            st++;
         }
 
     }
