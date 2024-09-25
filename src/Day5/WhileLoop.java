@@ -7,7 +7,16 @@ public class WhileLoop {
         while (i<=10) //Condition
         {
             System.out.println(i);
-            i++; //inc
+            i++; //incrementation
         }
+
+        //Print Hello message 10 times
+        int start = 1; //Initialization
+        while(start<=10) //Condition
+        {
+            System.out.println("Hello");
+            start++; //incrementation
+        }
+
     }
 }
