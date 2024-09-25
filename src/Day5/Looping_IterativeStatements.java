@@ -31,6 +31,15 @@ public class Looping_IterativeStatements {
         statements;
         inc/dec;
         }while(condition);
+        */
+
+        //for loop
+        /*
+        for(init,condition,inc/dec)
+        {
+        statements;
+        }
          */
+
     }
 }
