@@ -18,5 +18,13 @@ public class WhileLoop {
             start++; //incrementation
         }
 
+        //Print Even numbers between 1-10
+        int starting = 1;
+        while((starting<=10) && (i%2==0))
+        {
+            System.out.println(i);
+            i++;
+        }
+
     }
 }
