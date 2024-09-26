@@ -10,7 +10,7 @@ public class Assignment1 {
         int number = scn.nextInt();
         String result = "";
         while(number>0){
-            result=result+(number%10);
+            result+=(number%10);
             number=(number/10);
         }
         System.out.println(result);
