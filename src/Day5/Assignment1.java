@@ -7,6 +7,7 @@ public class Assignment1 {
         //Reverse a number (% / = operators) example;- Input- 1234 Output- 4321.
 
         Scanner scn = new Scanner(System.in);
+        System.out.println("Enter a number");
         int number = scn.nextInt();
         String result = "";
         while(number>0){
