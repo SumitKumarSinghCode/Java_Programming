@@ -41,5 +41,13 @@ public class Looping_IterativeStatements {
         }
          */
 
+        /*
+        Which loop to prefer:-
+        1) If you know the number of iteration in advance, the for loop is often the most suitable.
+        2) If you want to execute the loop at least once, the do-while loop is appropriate.
+        3) If you are uncertain about the number of iterations and the loop termination is based on a condition,
+        the while loop is a good choice.
+        */
+
     }
 }
