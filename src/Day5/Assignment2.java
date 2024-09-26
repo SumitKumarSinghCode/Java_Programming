@@ -10,12 +10,12 @@ public class Assignment2 {
         System.out.println("Enter a number");
         int number = scn.nextInt();
         int duplicate = number;
-        StringBuilder result = new StringBuilder();
-        while(number>0){
-            result.append(number%10);
+        int rev =0;
+        while(number!=0){
+            rev = rev*10+(number%10);
             number /=10;
         }
-        if (duplicate == Integer.parseInt(result.toString())){
+        if (duplicate == rev){
             System.out.println("Is Palindrome Number");
         }else{
             System.out.println("Is Not Palindrome Number");

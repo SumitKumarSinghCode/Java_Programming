@@ -9,11 +9,11 @@ public class Assignment1 {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter a number");
         int number = scn.nextInt();
-        String result = "";
-        while(number>0){
-            result+=(number%10); // Extract the last digit and add it to the result string
-            number=(number/10); // Remove the last digit from the number
+        int rev =0;
+        while(number!=0){
+            rev = rev*10+(number%10); // Extract the last digit and add it to the result string
+            number = (number/10); // Remove the last digit from the number
         }
-        System.out.println(result); // Print the reversed number
+        System.out.println(rev); // Print the reversed number
     }
 }
