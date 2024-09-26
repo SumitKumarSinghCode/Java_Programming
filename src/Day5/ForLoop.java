@@ -8,13 +8,6 @@ public class ForLoop {
            System.out.println(i);
         }
 
-
-        //Print number from 10 to 1
-        for (int j=10; j>=1;j--)
-        {
-            System.out.println(j);
-        }
-
         //from 1-10 specify each number is even/odd
         for(int start=1; start<=10;start++) {
            if(start%2==0){
@@ -22,6 +15,11 @@ public class ForLoop {
            }else{
                System.out.println(start+" Odd");
            }
+        }
+
+        //print 10-1 in descending order
+        for(int str=10; str>=1;str--){
+            System.out.println(str);
         }
 
     }
