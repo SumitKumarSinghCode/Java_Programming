@@ -6,6 +6,7 @@ public class SingleDimensionalArray {
 
         // Approach:-1) size will be fixed once declared.
         int a[] = new int[5]; //Declaring Array
+        //int []a = new int[5]; this is also valid
 
         //Adding Values into an Array.
         a[0] = 100;
