@@ -41,11 +41,11 @@ public class TwoDimensionalArray {
         }
 
         //Read all value from an array using enhanced for loop
-        for (int r = 0; r<a.length;r++){
-            for(int x:a[r]){
-                System.out.print(x+" "); // 100 200 300 400 500 600
+        for(int arr[]:a){
+            for(int x:arr){
+                System.out.print(x+" ");
             }
-            System.out.println(); //New Line
+            System.out.println();
         }
 
     }
