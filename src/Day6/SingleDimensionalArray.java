@@ -27,12 +27,12 @@ public class SingleDimensionalArray {
 
         // Reading all values of an array using normal for loop
         for (int i = 0; i<(a.length);i++){
-            System.out.println(a[i]);
+            System.out.println(a[i]); //100  200  300  400  500
         }
 
         // Reading all values of an array using enhanced for loop
         for(int x:a){ //here each value of array a will be assigned one after another to x variable.
-            System.out.println(x);
+            System.out.println(x); //100  200  300  400  500
         }
 
     }
