@@ -13,9 +13,9 @@ public class Assignment2 {
             sum_of_range+=i;
         }
 
-        for(int i=0;i<arr.length;i++)
+        for(int i :arr)
         {
-            current_sum+=arr[i];
+            current_sum+=i;
         }
 
         System.out.println("Missing number in an array is : "+(sum_of_range-current_sum));
