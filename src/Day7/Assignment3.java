@@ -7,11 +7,11 @@ public class Assignment3 {
         int arr[] = {100,200,800,500,50,9};
         int smallest = arr[0];
 
-        for(int i=0; i<arr.length; i++)
+        for(int num:arr)
         {
-            if(arr[i]<smallest)
+            if(num<smallest)
             {
-                smallest=arr[i];
+                smallest=num;
             }
         }
         System.out.println("smallest element in an array is:"+smallest);
