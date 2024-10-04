@@ -5,7 +5,6 @@ public class Assignment2 {
         // Find Missing Number in an array.
         // Numbers should be in range and it should not have duplicate elements.
         int arr[] = {1,2,3,5};
-        int missing_number=0;
         int current_sum = 0;
         int sum_of_range=0;
 
