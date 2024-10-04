@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args){
-        // Sort Array elements using bubble sort
+        // Sort Array elements using bubble sort(using for loop)
 
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the size of an array:");
