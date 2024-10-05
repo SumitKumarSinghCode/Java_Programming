@@ -110,7 +110,7 @@ public class StringMethods {
         // Ex-3
         System.out.println();
         System.out.println("Ex-3");
-        String s4 = "abc 123 xyz"; // if it has repeated delimeter then it will split in one split method. ()
+        String s4 = "abc 123 xyz"; // if it has repeated delimeters then it will split in one split method. ()
         String[] array = s4.split(" ");
         System.out.println(Arrays.toString(array)); // [abc , 123 , xyz]
 
@@ -118,6 +118,14 @@ public class StringMethods {
         System.out.println(s4.split(" ")[1]); // 123
         System.out.println(s4.split(" ")[2]); // xyz
 
+        // * % ^ & ( )    -> You cannot use as delimeters
+
+
+        // Problem -> does "john" is in the string name or not
+        String name = "John Kenedy";
+        System.out.println(name.contains("john")); // false
+        System.out.println(name.toLowerCase().contains("john")); // true
+        System.out.println(name.replace('J','j').contains("john")); // true
 
     }
 }
