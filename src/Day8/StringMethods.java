@@ -78,6 +78,11 @@ public class StringMethods {
         System.out.println(Arrays.toString(a)); // [inbox.sumit.ks, gmail.com]
         System.out.println(a[0].concat('@'+a[1])); // inbox.sumit.ks@gmail.com
 
+        // toCharArray() -> convert the string into character array
+        System.out.println();
+        System.out.println("toCharArray()");
+        System.out.println(Arrays.toString(s.toCharArray())); // [i, n, b, o, x, ., s, u, m, i, t, ., k, s, @, g, m, a, i, l, ., c, o, m]
+
         //Ex-1
         System.out.println("Ex-1");
         String amount = "$15,20,55"; //Exp 152055
