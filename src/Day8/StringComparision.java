@@ -20,6 +20,21 @@ public class StringComparision {
 
         // Case-3
         System.out.println();
-        
+        String s5 = "abc";
+        String s6 = new String("abc");
+        System.out.println(s5==s6); // false
+        System.out.println(s5.equals(s6)); // true
+
+        // Case-4
+        System.out.println();
+        String s7 ="abc";
+        String s8 = new String("abc");
+        String s9 = s8;
+        System.out.println(s7==s8); // false
+        System.out.println(s7.equals(s8)); // true
+
+        System.out.println(s8==s9); // true (objects are same)
+        System.out.println(s8.equals(s9)); // true (values of object are same)
+
     }
 }
