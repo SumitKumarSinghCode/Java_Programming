@@ -1,7 +1,5 @@
 package Day11;
 
-import Day6.Arrays;
-
 public class PassingParamsToMainMethod {
     public static void main(String[] a){
 
