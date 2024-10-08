@@ -6,12 +6,12 @@ public class GreetingsMain {
 
         gr.m1(); // Hello...
 
-        String s1 = gr.m2(); //No parameters  return value
+        String s1 = gr.m2();
         System.out.println(s1); //Hello how are you
 
-        gr.m3("Sumit"); //parameters   No return value
+        gr.m3("Sumit"); //Hello Sumit
 
         String s2 = gr.m4("Singham");
-        System.out.println(s2);
+        System.out.println(s2); // Hello Singham
     }
 }
