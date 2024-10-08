@@ -4,10 +4,10 @@ public class GreetingsMain {
     public static void main(String[] args){
         Greetings gr = new Greetings(); //Created gr object
 
-        gr.m1(); //No parameters   No return value
+        gr.m1(); // Hello...
 
         String s1 = gr.m2(); //No parameters  return value
-        System.out.println(s1);
+        System.out.println(s1); //Hello how are you
 
         gr.m3("Sumit"); //parameters   No return value
 
