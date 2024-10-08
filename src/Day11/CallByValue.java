@@ -5,11 +5,11 @@ public class CallByValue {
     {
         Test test = new Test();
 
-        int number = 100;
-        System.out.println("Before method:"+number); //100
+        test.number = 100;
+        System.out.println("Before method:"+test.number); //100
 
-        test.m1(number);
-        System.out.println("After method:"+number); // 100
+        test.m2(test);
+        System.out.println("After method:"+test.number); // 100
 
     }
 }
