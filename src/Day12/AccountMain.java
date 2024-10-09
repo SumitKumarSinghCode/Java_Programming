@@ -6,7 +6,7 @@ public class AccountMain {
         Account ac = new Account();
 
         //setting values in the Account class using setter method
-        ac.setAccno(5975001500002008l);
+        ac.setAccno(5975001500002008L);
         ac.setName("Sumit Kumar Singh");
         ac.setBalance(50000);
 
