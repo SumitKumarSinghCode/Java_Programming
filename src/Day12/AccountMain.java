@@ -11,9 +11,9 @@ public class AccountMain {
         ac.setBalance(50000);
 
         //getting the value from Account class through get method
-        System.out.println(ac.getAccno());
-        System.out.println(ac.getName());
-        System.out.println(ac.getBalance());
+        System.out.println(ac.getAccno()); //5975001500002008
+        System.out.println(ac.getName()); //Sumit Kumar Singh
+        System.out.println(ac.getBalance());//50000.0
 
     }
 }
