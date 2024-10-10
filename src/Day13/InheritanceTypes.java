@@ -6,7 +6,7 @@ package Day13;
         1) Single Inheritance-(One parent class and one child class)
         2) Multilevel Inheritance-(combining multiple single inheritance)
         3) Hierarchical Inheritance-(multiple child class derived from single parent class but each child has no relation between them)
-        4) Multiple Inheritance
+        4) Multiple Inheritance-(Through Interfaces)Java does not support multiple inheritance with classes due to the "diamond problem." However, it can be achieved using interfaces, allowing a class to implement multiple interfaces.
         5) Hybrid Inheritance
          */
 
