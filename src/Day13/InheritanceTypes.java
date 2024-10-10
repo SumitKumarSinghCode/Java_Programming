@@ -5,7 +5,7 @@ package Day13;
         Types of Inheritance:-
         1) Single Inheritance-(One parent class and one child class)
         2) Multilevel Inheritance-(combining multiple single inheritance)
-        3) Hierarchical Inheritance-(One parent class with multiple child but each child has no relation between them)
+        3) Hierarchical Inheritance-(multiple child class derived from single parent class but each child has no relation between them)
         4) Multiple Inheritance
         5) Hybrid Inheritance
          */

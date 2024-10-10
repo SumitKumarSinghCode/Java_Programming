@@ -20,6 +20,13 @@ class Child2 extends Parent{
 public class HierarchicalInheritance {
     public static void main(String[] args){
 
+        Child1 c1 = new Child1();
+        c1.display(100); //100
+        c1.show(200); //200
+
+        Child2 c2 = new Child2();
+        c2.display(10); //10
+        c2.print(20); //20
 
     }
 }
