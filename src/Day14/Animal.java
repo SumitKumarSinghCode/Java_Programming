@@ -17,6 +17,11 @@ class Animal
     {
         System.out.println("This is Animal");
     }
+
+    Animal(String name)
+    {
+        System.out.println("This parent class constructor "+name);
+    }
 }
 
 class Dog extends Animal
@@ -39,6 +44,11 @@ class Dog extends Animal
     {
         super();
         //System.out.println("This is Dog");
+    }
+
+    Dog(String name)
+    {
+        super(name);
     }
 }
 
