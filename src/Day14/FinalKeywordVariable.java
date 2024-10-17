@@ -1,6 +1,8 @@
 package Day14;
 
-// when we create a variable as a final or make a variable as a final, we cannot change the value of it(Constant)
+// When a variable is declared as final, its value cannot be changed once it is assigned.
+// A final variable must be initialized at the time of declaration or in the constructor.
+
 class Test{
     final int x = 100;
     
