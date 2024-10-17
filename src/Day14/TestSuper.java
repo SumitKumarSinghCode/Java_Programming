@@ -9,7 +9,7 @@ public class TestSuper {
         dog.eat(); // Eating...(super method
          */
 
-        Dog d = new Dog("Cow");
+        Dog d = new Dog("Cow"); // parent class constructor cow will be printed
 
     }
 }
