@@ -28,7 +28,7 @@ public class InterfaceDemo implements Shape
 
     public static void main(String[] args){
 
-        //Scenario-1
+        //Scenario-1 (Here we can access all the Methods of class and Interface)
         InterfaceDemo idobj = new InterfaceDemo();
         idobj.square(); // Output-(This is square-- default method) default Method (Calls the default method through class object if not overridden)
         idobj.circle(); // Abstract Method  Output-(This is circle-- Abstract method)
@@ -42,9 +42,13 @@ public class InterfaceDemo implements Shape
         Shape.rectangle(); // Static Methods can be accessed directly through interface
 
 
-        //Scenario-2
-
-
+        //Scenario-2 (Here we can access all the Methods of Interface Only)
+        Shape sh = new InterfaceDemo();
+        sh.circle();
+        sh.square();
+        //sh.triangle // cannot access because it belongs to class
+        //sh.rectangle // cannot access
+        Shape.rectangle(); // Static Methods can be accessed directly through interface
 
     }
 }
