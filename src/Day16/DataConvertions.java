@@ -27,7 +27,7 @@ public class DataConvertions {
 
 
         System.out.println("Scenario -2");
-        // Scenario -2 (int, double, bool, char --> String) (Auto Boxing)
+        // Scenario -2 (int, double, bool, char --> String) (Autoboxing)
         int x=100;
         String xstring = String.valueOf(x);
         System.out.println(xstring); // 100
