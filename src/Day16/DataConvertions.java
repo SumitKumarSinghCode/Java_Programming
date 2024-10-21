@@ -48,12 +48,7 @@ public class DataConvertions {
         System.out.println();
         // Scenario -3 (int to double)
         int num =10;
-        // Approach-1
-        double dbl =num;
-        // Approach-2
-        double dvalue =Double.valueOf(num);
-
-        System.out.println(dvalue+" "+dbl); // 10.0 10.0
+        double dbl = num; // directly we can assign int to double
 
 
         System.out.println();
