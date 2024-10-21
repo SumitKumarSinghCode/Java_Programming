@@ -3,7 +3,7 @@ package Day16;
 public class DataConvertions {
     public static void main(String[] args){
         // Scenario -1 ( String --> int, double, bool, char(not possible))  (Unboxing)
-
+        System.out.println("Scenario -1");
         // String to int
         // String s = "Welcome"; // cannot convert to number
         String s1 ="10";
@@ -26,7 +26,7 @@ public class DataConvertions {
         // String s ="welcome"; // cannot convert to char(Not possible)
 
 
-        System.out.println();
+        System.out.println("Scenario -2");
         // Scenario -2 (int, double, bool, char --> String) (Auto Boxing)
         int x=100;
         String xstring = String.valueOf(x);
@@ -45,13 +45,13 @@ public class DataConvertions {
         System.out.println(cstring); // A
 
 
-        System.out.println();
+        System.out.println("Scenario -3");
         // Scenario -3 (int to double)
         int num =10;
         double dbl = num; // directly we can assign int to double
+        System.out.println(dbl); //10.0
 
-
-        System.out.println();
+        System.out.println("Scenario -4");
         // Scenario -4 (double to int) we don't convert because decimal point will be missing
         double y = 10.5;
         // int z = y; // Not possible
