@@ -42,6 +42,7 @@ public class InterfaceDemo implements Shape
         Shape.rectangle(); // Static Methods can be accessed directly through interface
 
 
+        // Interface Concepts:-
         //Scenario-2 (Here we can access all the Methods of Interface Only except static methods)
         Shape sh = new InterfaceDemo();
         sh.circle();
