@@ -26,6 +26,7 @@ public class DataConvertions {
         // String s ="welcome"; // cannot convert to char(Not possible)
 
 
+        System.out.println();
         // Scenario -2 (int, double, bool, char --> String) (Auto Boxing)
         int x=100;
         String xstring = String.valueOf(x);
@@ -41,8 +42,10 @@ public class DataConvertions {
 
         char c ='A';
         String cstring = String.valueOf(c);
-        System.out.println(c); // A
+        System.out.println(cstring); // A
 
+
+        System.out.println();
         // Scenario -3 (int to double)
         int num =10;
         // Approach-1
@@ -52,6 +55,8 @@ public class DataConvertions {
 
         System.out.println(dvalue+" "+dbl); // 10.0 10.0
 
+
+        System.out.println();
         // Scenario -4 (double to int) we don't convert because decimal point will be missing
         double y = 10.5;
         // int z = y; // Not possible
