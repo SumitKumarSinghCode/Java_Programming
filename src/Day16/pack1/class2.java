@@ -1,6 +1,6 @@
 package Day16.pack1;
 
-// Accessing the private, default, protected, public access modifier variable, class and methods
+// Accessing the private, default, protected, public (access modifier) variable, class and methods inside the package
 // Here no import is needed because we are accessing within the same package
 
 public class class2 {
