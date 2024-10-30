@@ -28,8 +28,5 @@ public class TypeCastingObjects2 {
 
         Animal dg=(Dog)an; //Rule 1:-valid ,Rule 2:-valid, Rule 3:-valid
 
-
-
-
     }
 }
